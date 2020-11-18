@@ -6,7 +6,7 @@ public class App {
     private JPanel mainPanel;
     void go(){
         JFrame frame = new JFrame("App");
-        frame.setContentPane(new App().mainPanel);
+        frame.setContentPane(mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setBounds(100,200,600,300);
         frame.setVisible(true);
